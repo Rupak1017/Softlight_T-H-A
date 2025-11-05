@@ -1,0 +1,12 @@
+{
+  "name": "softlight-figma2html",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node src/generate.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
