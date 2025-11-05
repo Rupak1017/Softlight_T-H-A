@@ -4,9 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate": "node src/generate.js"
+    "generate": "node src/generate.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --forceExit"
   },
   "dependencies": {
     "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
