@@ -17,7 +17,7 @@ import {
 import { styleObjToText, nextClass } from "./util.js";
 
 // ---- env ----
-const FILE_KEY = process.env.FIGMA_FILE_KEY || "n5yLH8Hbf7d6VFqxiAECcn";
+const FILE_KEY = process.env.FIGMA_FILE_KEY;
 const TOKEN = process.env.FIGMA_TOKEN;
 
 if (!TOKEN) {
